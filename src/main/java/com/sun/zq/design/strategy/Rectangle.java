@@ -1,6 +1,7 @@
 package com.sun.zq.design.strategy;
 
 /**
+ * @description: 长方形面积
  * @author：sunzheng
  * @date 2023/2/12 21:15
  */
