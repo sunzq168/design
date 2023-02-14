@@ -6,12 +6,12 @@ package com.sun.zq.design.template;
  */
 public class Class1 extends AbstractClass {
     @Override
-    void method1() {
+    public void method1() {
         System.out.println("class1 invoke method1");
     }
 
     @Override
-    void method2() {
+    public void method2() {
         System.out.println("class1 invoke method2");
     }
 }
