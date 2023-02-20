@@ -7,8 +7,8 @@ public class Subject extends Observable {
 
     public void setData(String data) {
         this.data = data;
-        setChanged();
-        notifyObservers();
+        super.setChanged();
+        super.notifyObservers("helloworld");
     }
 
     public String getData() {

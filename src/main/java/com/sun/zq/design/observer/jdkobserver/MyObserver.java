@@ -7,6 +7,8 @@ public class MyObserver implements java.util.Observer {
     public void update(Observable o, Object arg) {
         Subject subject = (Subject)o;
         String data = subject.getData();
+
+        System.out.println("通知内容：" + arg.toString());
         System.out.println("jdk 观察者模式拉的方式获取数据:data = " + data);
     }
 }
